@@ -1,0 +1,209 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+p {
+  line-height: 1.6;
+}
+nav {
+  background-color: rgba(255, 212, 132, 0.986);
+  height: 80px;
+  width: 100%;
+}
+.logo {
+  color: rgb(255, 239, 210);
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: 900;
+}
+ul {
+  display: flex;
+}
+li {
+  display: inline-block;
+  line-height: 75px;
+  margin: auto;
+}
+a {
+  color: rgb(130, 185, 128);
+  font-size: 20px;
+}
+a:hover {
+  color: #95a5a657;
+}
+#order_part {
+  display: flex;
+  padding-left: 80px;
+  background-image: url(images/shapes/Frame\ 58.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#order_heading {
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+strong {
+  color: rgb(248, 105, 9);
+}
+#order_content {
+  margin-bottom: 30px;
+}
+#order_button {
+  text-decoration: none;
+  padding: 10px 15px;
+  color: white;
+  font-weight: 200px;
+  background-image: linear-gradient(#e45f5f, #c73448);
+  border-radius: 50px;
+}
+
+.order_left {
+  width: 60%;
+  padding-top: 60px;
+}
+.order_right {
+  width: 60%;
+}
+.order_right img {
+  width: 80%;
+  padding-left: 40px;
+}
+
+#contact_part {
+  display: flex;
+  background-image: url(images/shapes/Frame\ 59.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  margin-bottom: 100px;
+}
+.contact_left {
+  width: 50%;
+}
+.contact_left img {
+  padding-top: 80px;
+  padding-left: 110px;
+  width: 50%;
+}
+
+.contact_right {
+  padding-top: 120px;
+  width: 50%;
+}
+#contact_heading {
+  font-size: 50px;
+  font-weight: 700;
+  color: #bbb2bd;
+  margin-bottom: 15px;
+}
+#contact_content {
+  padding-bottom: 30px;
+}
+#contact_button {
+  text-decoration: none;
+  padding: 10px 15px;
+  color: white;
+  font-weight: 200px;
+  background-image: linear-gradient(#c7879c, #e02e81);
+  border-radius: 50px;
+}
+
+.item_head {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.item_heading {
+  padding-bottom: 30px;
+}
+.item_part {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  line-height: 1.6;
+  justify-content: center;
+  align-items: center;
+}
+.recipies_title {
+  margin-bottom: 20px;
+}
+.item {
+  background-color: white;
+  width: 22%;
+  height: 450px;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
+  border-radius: 30px;
+}
+.item img {
+  width: 100%;
+  height: 50%;
+  border-radius: 20px;
+}
+.social_status {
+  display: flex;
+  background-color: white;
+  margin: 100px 180px 60px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+  padding: 40px 45px;
+  border-radius: 15px;
+}
+.status {
+  margin: auto;
+}
+b {
+  font-size: xx-large;
+  font-weight: bold;
+}
+.offer {
+  width: 100%;
+  height: 500px;
+  background-image: url(images/food/Project\ Cover4.png);
+
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.offer_head {
+  padding-top: 70px;
+  font-size: 40px;
+  font-weight: 900;
+  color: rgb(236, 152, 152);
+  padding-bottom: 20px;
+}
+.offer_details {
+  font-size: 60px;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 40px;
+}
+.offer a {
+  font-size: 40px;
+  color: rgba(0, 7, 7, 0.657);
+  border: 3px dashed rgba(227, 231, 16, 0.459);
+  background-color: white;
+  border-radius: 5px;
+}
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  text-align: center;
+}
+.footer_head {
+  margin: 0;
+  padding-top: 30px;
+  color: #5b5b5b;
+  margin-bottom: 30px;
+}
+.footer_content {
+  color: rgba(255, 255, 255, 0.664);
+}
